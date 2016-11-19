@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Path to Your First Pull Request</h1>
+					<h2>(& how to help others find theirs)</h2>
+					<small>Lisa Yoder | <a href="http://twitter.com/_lisli">@_lisli</a></small>
+				</section>
+				<section>
+					<h2>Story Time!</h2>
+					<a href="https://github.com/lisli/gdi-website/commit/6ef4ca52dd78210de9c3dde12f43e6cac5a61b63"><img src="images/girl-develop-it-about-page-addition.png" alt="screenshot of what was added to Girl Develop It's About page"/></a>
+					<aside class="notes">
+					</aside>
+				</section>
+				<section>
+					<h3>Two Parts:</h3>
+					<p>Getting started if you've never done this before</p>
+					<p>Creating an inclusive environment for first-timers</p>
+				</section>
+				<section>
+					<h3>For first timers:</h3>
+					<p>How do I find a project or an issue?</p>
+					<ul>
+						<li class="fragment"><a href="http://yourfirstpr.github.io/">Your First PR</a></li>
+						<li class="fragment"><a href="http://www.firsttimersonly.com/">First Timers Only Resource Guide</a></li>
+						<li class="fragment"><a href="https://github.com/search?q=label%3Afirst-timers-only&state=open&type=Issues">First Timers Only Tagged Issues</a></li>
+						<li class="fragment"><a href="https://www.freecodecamp.com/">Free Code Camp</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>For first-timers:</h3>
+					<p>Don't be afraid of small issues.</p>
+					<p class="fragment">Update setup documentation or README.</p>
+					<p class="fragment">Correcting spelling or grammar counts!</p>
+				</section>
+				<section>
+					<h3>For first-timers:</h3>
+					<p>Make your contributions as easy as possible for the project's maintainers.</p>
+					<p class="fragment">Read & follow instructions about contributing.</p>
+				</section>
+				<section>
+					<h3>For first-timers:</h3>
+					<p>Look for projects with a Code of Conduct.</p>
+					<p>Example: <a href="https://github.com/yourfirstpr/yourfirstpr.github.io/blob/master/CODEOFCONDUCT.MD">Your First PR</a></p>
+				</section>
+				<section>
+					<h3>For first-timers:</h3>
+					<p>Keep an eye out for projects like <a href="https://100daysofcommits.github.io/">#100daysofcommits</a>, <a href="http://24pullrequests.com/">24 Days of Pull Requests</a>, or <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>.</p>
+				</section>
+
+				<!-- for those who want to help first timers -->
+				<section>
+					<h3>For those who want to help first-timers:</h3>
+					<p>Don't diminish or minimize simple contributions.</p>
+				</section>
+				<section>
+					<h3>For those who want to help first-timers:</h3>
+					<p>EGO CHECK: If you need an ego check, look at your first PR.</p>
+					<p><a href="http://firstpr.me">FirstPR.me</a></p>
+				</section>
+				<section>
+					<h3>For those who want to help first-timers:</h3>
+					<p>Have a code of conduct.</p>
+					<p>Coraline Ada Emke's <a href="http://contributor-covenant.org/">Contributor Covenant</a> is a great place to start.</p>
+					<p>Here's a <a href="http://contributor-covenant.org/adopters/">list of projects</a> that have adopted it.</p>
+				</section>
+				<section>
+					<h3>For those who want to help first-timers:</h3>
+					<p>Tag issues as beginner friendly.</p>
+				</section>
+				<section>
+					<h3>For those who want to help first-timers:</h3>
+					<p>Consider joining, <a href="https://www.codeforamerica.org/how-tos/start-a-brigade">starting</a>, or mentoring at a Code for America Brigade or another civic hacking group.</p>
+				</section>
+				<section>
+					<h2>Thank you!</h2>
+					<h3>(Tweet your first PR at me!)</h3>
+					<h3><a href="http://twitter.com/_lisli">@_lisli</a></h3>
+					
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

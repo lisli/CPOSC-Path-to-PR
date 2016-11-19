@@ -1,0 +1,1 @@
+Slides for my "Path to Your First Pull Request" talk at Central PA Open Source Conference. Slides are formatted using Reveal.js.
